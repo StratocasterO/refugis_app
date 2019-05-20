@@ -14,17 +14,22 @@ body{
 	justify-content: center;
 	align-content: center;
 }
-.login form{
+#login,#register{
 	background-color: #5E9F6A;
 	border: 3px solid #1C4125;
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
 	padding: 10px;
-	width: 200px;
+}
+#login div{
+	display: flex;
+	justify-content: space-between;
 }
 .login input[type="text"]{
+	width: 200px;
 	margin: 5px;
 	padding: 5px 10px;
 }
@@ -33,5 +38,5 @@ body{
 	border: none;
 	background-color: #1C4125;
 	color: white;
-	padding: 10px 15px;
+	padding: 10px 28px;
 }
