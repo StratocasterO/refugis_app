@@ -1,11 +1,19 @@
+/*GENERAL*/
+@font-face{
+	font-family: regular;
+	src: url(../design/quicksand-font/Quicksand-Regular.ttf)		
+}
 body{
+	font-family: regular;
 	margin: 0;
-	background-color: #A54C4C;
+	background-color: #b4735b;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 }
+
+/*INICIO*/
 #logo{
 	display: block;
 }
@@ -15,21 +23,32 @@ body{
 	align-content: center;
 }
 #login,#register{
-	background-color: #5E9F6A;
-	border: 3px solid #1C4125;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
 	padding: 10px;
+	width: 90%;
 }
-#login div{
+#login div,#register div{
 	display: flex;
 	justify-content: space-between;
 }
+.login h1{
+	margin-top: 15px;
+	margin-bottom: 0;
+	border-bottom: 1px solid black;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.login{
+	background-color: #f6f4ef;
+	width: 90%;
+	display: block;
+}
 .login input[type="text"]{
-	width: 200px;
+	width: 90%;
 	margin: 5px;
 	padding: 5px 10px;
 }
@@ -40,3 +59,5 @@ body{
 	color: white;
 	padding: 10px 28px;
 }
+
+/*PAGINA PRINCIPAL*/
