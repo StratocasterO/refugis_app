@@ -32,7 +32,7 @@ if (entrar !=
 	null) entrar.addEventListener('click',clickEntrar);
 //Boton para ir a la pantalla de registrarte.
 const clickRegistrarse=_=>{
-	console.log('me clickas en registrarse');
+	console.log('me clickas en registrate');
 	primerFormulario.style.display = 'none';
 	primerFormulario.style.transition = "opacity 1s";
 
@@ -45,12 +45,14 @@ document.querySelector('input[value="Registrarse"]').addEventListener('click',cl
 
 
 //Hacer click en el boton de 'ME REGISTRO'dentro de la opción de registrarse y despues de rellenar todo.
-/*const registrate=_=>{
+const registrarse=_=>{
+	console.log('click en registrarse');
 
 
 
 
 }
-registrate = document.querySelector('input[value="Registrarse"]')
-if (registrate != null) registrate.addEventListener('click',registrate);*/
+registrate = document.querySelector('input[value="Registrarse"]')addEventListener('click',registrarse);
+
+//if (registrate != null) 
 
