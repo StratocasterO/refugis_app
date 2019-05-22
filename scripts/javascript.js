@@ -54,5 +54,3 @@ const registrarse=_=>{
 }
 registrate = document.querySelector('input[value="Registrarse"]')addEventListener('click',registrarse);
 
-//if (registrate != null) 
-
