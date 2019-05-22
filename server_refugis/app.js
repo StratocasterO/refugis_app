@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var refugisRouter = require('./routes/refugis');
 
 var app = express();
 
@@ -19,8 +20,15 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// permite el acceso desde cualquier URL (para no hacerlo en cada petición)
+app.use(function (req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  next();
+}); 
+
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/refugis', refugisRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
