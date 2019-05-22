@@ -32,7 +32,7 @@ body{
 	width: 150px;
 	height: 150px;
 }
-.login, .login2{
+.login,.login2{
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
@@ -51,7 +51,7 @@ input{
 .login{
 	opacity: 0;
 }
-#login,#login2{
+#login,#register{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -74,7 +74,7 @@ input{
 	text-align: center;
 	padding-bottom: 15px;
 }
-.login input[type="text"],.login2 input[type="text"]{
+.login input[type="text"], .login2 input[type="text"]{
 	margin: 5px;
 	padding: 5px 10px;
 	width: 90%;

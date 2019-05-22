@@ -38,7 +38,7 @@ const clickRegistrarse=_=>{
 
 	registrar.style.opacity = 1;
 	registrar.style.transition = "opacity 1s";
-	registrar.style.display='block';
+	registrar.style.display='flex';
 
 }
 document.querySelector('input[value="Registrarse"]').addEventListener('click',clickRegistrarse);
