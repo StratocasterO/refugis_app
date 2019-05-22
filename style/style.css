@@ -1,50 +1,119 @@
+/*GENERAL*/
+@font-face{
+	font-family: regularfont;
+	src: url(../design/quicksand-font/Quicksand-Regular.ttf)		
+}
+@font-face{
+	font-family: lightfont;
+	src: url(../design/quicksand-font/Quicksand-Light.ttf)		
+}
+@font-face{
+	font-family: boldfont;
+	src: url(../design/quicksand-font/Quicksand-Bold.ttf)		
+}
+@font-face{
+	font-family: mediumfont;
+	src: url(../design/quicksand-font/Quicksand-Medium.ttf)		
+}
 body{
+	font-family: lightfont;
 	margin: 0;
-	background-color: #A54C4C;
+	background-color: #b4745c;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 }
+
+/*INICIO*/
 #logo{
 	display: block;
-	position: absolute;
-	width: 150px;
-	height: 150px;
 }
-.login{
+.cont{
 	display: flex;
-	justify-content: center;
-	align-content: center;
-	opacity: 0;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	background-color: #f7f6f0;
+	width: 90%;
+	padding-bottom: 10px;
 }
-.login2{
-	display: none;
-
+input{
+	font-family: lightfont;
 }
 #login,#register{
-	background-color: #5E9F6A;
-	border: 3px solid #1C4125;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
-	padding: 10px;
+	padding: 10px 0;
+	width: 90%;
 }
-#login div,#login2 div{
+.botones{
 	display: flex;
 	justify-content: space-between;
 }
-.login input[type="text"]{
-	width: 200px;
+.cont h1{
+	color: #515151;
+	width: 100%;
+	font-size: 1.5em;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #515151;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.cont input[type="text"]{
 	margin: 5px;
 	padding: 5px 10px;
+	width: 90%;
 }
-.login input[type="button"]{
+.boton{
 	margin: 5px;
 	border: none;
-	background-color: #1C4125;
+	background-color: #515151;
 	color: white;
-	padding: 10px 28px;
+	padding: 10px 0;
+	width: 50%;
 }
+.boton2{
+	width: 100% !important;
+}
+#cerrar{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 8px;
+	right: 5px;
+}
+.gl{
+	background-color: #b12319 !important;
+	margin: 20px 0 5px 0;
+}
+.fb{
+	background-color: #38558f !important;
+	margin: 5px 0 20px 0;
+}
+.gl,.fb{
+	height: 40px;
+	width: 70%;
+	border-radius: 20px;
+	color: white;
+	border: none;
+}
+.separador{
+	border-bottom: 1px solid #515151;
+	width: 100%;
+	margin: 15px 0 30px 0;
+}
+.O{
+	width: 20px;
+	margin-top: -43px;
+	background-color: #f7f6f0;
+	text-align: center;
+	color: #515151;
+}
+
+/*PAGINA PRINCIPAL (ARMINA)*/
