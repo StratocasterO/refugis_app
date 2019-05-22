@@ -14,4 +14,12 @@ router.get('/comment', function(req, res, next) {
 
 });
 
+router.get('/delete', function(req, res, next) {
+
+});
+
+router.get('/fetch', function(req, res, next) {
+
+});
+
 module.exports = router;
