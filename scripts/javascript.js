@@ -45,12 +45,14 @@ document.querySelector('input[value="Registrarse"]').addEventListener('click',cl
 
 
 //Hacer click en el boton de 'ME REGISTRO'dentro de la opción de registrarse y despues de rellenar todo.
-const registrarse=_=>{
+/*const registrarse=_=>{
 	console.log('click en registrarse');
 
 
 
 
 }
-registrate = document.querySelector('input[value="Registrarse"]')addEventListener('click',registrarse);
+registrate = document.querySelector('input[value="Registrarse"]')addEventListener('click',registrarse);*/
+
+//if (registrate != null) 
 
