@@ -1,0 +1,53 @@
+@font-face{
+	font-family: regularfont;
+	src: url(../design/quicksand-font/Quicksand-Regular.ttf)		
+}
+@font-face{
+	font-family: lightfont;
+	src: url(../design/quicksand-font/Quicksand-Light.ttf)		
+}
+@font-face{
+	font-family: boldfont;
+	src: url(../design/quicksand-font/Quicksand-Bold.ttf)		
+}
+@font-face{
+	font-family: mediumfont;
+	src: url(../design/quicksand-font/Quicksand-Medium.ttf)		
+}
+body{
+	font-family: lightfont;
+	margin: 0;
+	height: 100vh;
+}#registir{
+	background-color: #b7e070;
+}
+#mapa{
+	background-image: url(../img/map.png);
+	background-size: 100% 100%;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+.menu {
+	position: fixed;
+	height: 700px;
+	background: #b7e070;
+	
+}
+.pulsar {
+	background: orange;
+	height: 30px;
+	width: 30px;
+	text-align: center;	
+	
+}
+.botones2{
+	
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.taitel{
+	background-color: #b7e070;
+	text-align: center;
+}

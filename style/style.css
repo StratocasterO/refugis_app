@@ -28,8 +28,11 @@ body{
 /*INICIO*/
 #logo{
 	display: block;
+	position: absolute;
+	width: 150px;
+	height: 150px;
 }
-.cont{
+.login, .login2{
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
@@ -42,7 +45,13 @@ body{
 input{
 	font-family: lightfont;
 }
-#login,#register{
+.login2{
+	display: none;
+}
+.login{
+	opacity: 0;
+}
+#login,#login2{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -55,7 +64,7 @@ input{
 	display: flex;
 	justify-content: space-between;
 }
-.cont h1{
+.login h1, .login2 h1{
 	color: #515151;
 	width: 100%;
 	font-size: 1.5em;
@@ -65,7 +74,7 @@ input{
 	text-align: center;
 	padding-bottom: 15px;
 }
-.cont input[type="text"]{
+.login input[type="text"],.login2 input[type="text"]{
 	margin: 5px;
 	padding: 5px 10px;
 	width: 90%;
@@ -115,5 +124,3 @@ input{
 	text-align: center;
 	color: #515151;
 }
-
-/*PAGINA PRINCIPAL (ARMINA)*/

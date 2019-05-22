@@ -10,22 +10,35 @@
 
 <body>
 	<img id="logo" src="http://placehold.it/150x150" alt="">
-<div class="login">
-	<form id="login">
-		<input type="text" id="user" placeholder="Nombre de usuario o email">
-		<input type="text" id="pass" placeholder="Contraseña">
-		<div><input type="button" value="Entrar" id="btnEntrar"><input type="button" value="Registrarse"></div>
-	</form>
-</div>
-<div class="register">
-	<form id="register">
-		<input type="text" id="user" placeholder="Nombre de usuario">
-		<input type="text" id="mail" placeholder="Correo electrónico">
-		<input type="text" id="pass" placeholder="Contraseña">
-		<input type="text" id="pass2" placeholder="Repetir contraseña">
-		<input type="button" value="Registrarse">
-	</form>
-</div>
+
+	<div class="login">
+		<div id="cerrar"><img src="img/close.svg" height="18px" alt="Close"></div>
+		<h1>Identificación</h1>
+		<form id="login">
+			<input type="text" id="user" placeholder="Nombre de usuario o email">
+			<input type="text" id="pass" placeholder="Contraseña">
+			<div class="botones"><input class="boton" type="button" value="Entrar"><input class="boton" type="button" value="Registrarse"></div>
+		</form>	
+		
+		<div class="separador"></div>
+		<div class="O">o</div>
+		<input class="gl" type="button" value="Indentifícate con Google">
+		<input class="fb" type="button" value="Identifícate con Facebook">
+	</div>
+	
+	<div class="login2">
+		<div id="cerrar"><img src="img/close.svg" height="18px" alt="Close"></div>
+		<h1>Registro</h1>
+		<form id="register">
+			<input type="text" id="user" placeholder="Nombre de usuario">
+			<input type="text" id="mail" placeholder="Correo electrónico">
+			<input type="text" id="pass" placeholder="Contraseña">
+			<input type="text" id="pass2" placeholder="Repetir contraseña">
+			<div class="botones"><input class="boton boton2" type="button" value="Registrarse"></div>
+		</form>
+	</div>
+</body>
+
 
 </html>
 
