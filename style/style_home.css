@@ -61,7 +61,9 @@ h2{
 }
 .taitel{
 	background-color: #A54C4C;
-	text-align: center;
+	height: 52px;
+	display: flex;
+	justify-content: space-between;
 }
 .profile{
 	display: block;
