@@ -104,6 +104,7 @@ li img{
 	left: 0;
 	position: fixed;
 }
+
 .m_contenedor{
 	transition: 1s;
 	left: -180px;
@@ -111,6 +112,7 @@ li img{
 	width: 176px;
 	position: fixed;
 	background: #F4F0E9;
+	z-index: 1;
 }
 .invisible{
 	left: 0

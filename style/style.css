@@ -48,7 +48,7 @@ input{
 .login2{
 	display: none;
 }
-.login{
+.oculto{
 	opacity: 0;
 }
 #login,#register{
