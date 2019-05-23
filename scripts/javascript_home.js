@@ -1,4 +1,5 @@
-const pulsarMenu=_=>{
+const pulsarRojo=_=>{
+    console.log('llego');
     const cajaRoja = document.querySelector('#menu');
     const cajaGrande = document.querySelector('#m_contenedor');
     cajaGrande.classList.toggle('invisible');
@@ -9,8 +10,8 @@ window.addEventListener('click', function(e){
     const menu = document.querySelector('#menu2');
 
     if ( !m_contenedor.contains(e.target)){
-        m_contenedor.classList.remove('invisible');
+         m_contenedor.classList.remove('invisible');
     }
 });
 
-document.querySelector('#menu2').addEventListener('click',pulsarMenu);
+document.querySelector('#menu2').addEventListener('click',pulsarRojo);

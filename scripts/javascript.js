@@ -3,6 +3,7 @@ let entrar = document.querySelector('#btnEntrar')
 let primerFormulario=document.querySelector('.login');
 let logo=document.querySelector('#logo');
 let cerrar=document.querySelector("#cerrar");
+let cerrar2=document.querySelector("#cerrar2");
 
 //variable para hacer un delay dentro de la pagina principal y mostrar el menu de registro
 const delay=_=>{
@@ -51,7 +52,8 @@ document.querySelector('input[value="Registrarse"]').addEventListener('click',cl
 if (entrar != null) entrar.addEventListener('click',clickEntrar);
 
 if (cerrar != null) cerrar.addEventListener('click',clickCerrar);
-	
+if (cerrar2 != null) cerrar2.addEventListener('click',clickCerrar);
+
 	//Hacer click en el boton de 'ME REGISTRO'dentro de la opción de registrarse y despues de rellenar todo.
 	/*const registrarse=_=>{
 		console.log('click en registrarse');

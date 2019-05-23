@@ -90,7 +90,7 @@ input{
 .boton2{
 	width: 100% !important;
 }
-#cerrar{
+#cerrar,#cerrar2{
 	width: 20px;
 	height: 20px;
 	position: absolute;

@@ -17,37 +17,105 @@
 body{
 	font-family: lightfont;
 	margin: 0;
-	height: 100vh;
-}#registir{
+	color: #515151;
+}
+#registir{
 	background-color: #b7e070;
 }
 #mapa{
-	background-image: url(../img/map.png);
+	background: url(../img/map.png);
 	background-size: 100% 100%;
-	position: relative;
 	width: 100vw;
 	height: 100vh;
 }
 .menu {
 	position: fixed;
-	height: 700px;
-	background: #b7e070;
-	
+	height: 650px;
+	background: #F4F0E9;
+	margin: left 10px;
+	padding-right: 40px;
+}
+h3{
+	margin: 0 auto;
+}
+h2{
+	margin-top: 0;
 }
 .pulsar {
 	background: orange;
 	height: 30px;
 	width: 30px;
 	text-align: center;	
-	
 }
 .botones2{
-	
 	position: fixed;
 	bottom: 0;
-	width: 100%;
+	width: calc(100% - 20px);
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.foto{
+	margin-right: 10px;
+	margin-left: 5px;
 }
 .taitel{
-	background-color: #b7e070;
+	background-color: #A54C4C;
 	text-align: center;
+}
+.profile{
+	display: block;
+	margin: 20px auto;
+}
+.lista{
+	list-style: none;
+	padding: 10px 0;
+	border-top: 1px solid #515151;
+}
+.lista li{
+	padding: 0 5px;
+	display: flex;
+	align-items: center;
+	margin: 5px 10px;
+}
+li img{
+	margin: 0 10px;
+}
+.stilos{
+	background-color: #A54C4C;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.share{
+	width: 25px;
+	height: 25px;
+	margin-top: 20px;
+}
+.imgCabecera{
+	padding: 8px;
+}
+
+/*/////////////////////MENÚ DESPLEGABLE////////////////*/
+
+.menu2{
+	height: 50px;
+	width:50px; 
+	left: 0;
+	position: fixed;
+}
+.m_contenedor{
+	transition: 1s;
+	left: -180px;
+	height: 700px;
+	width: 176px;
+	position: fixed;
+	background: #F4F0E9;
+}
+.invisible{
+	left: 0
+}
+.container{
+	width: 100%;
+	margin: auto;
 }
